@@ -3,7 +3,9 @@ def fizzbuzz(n)
     "fizz"
   elsif n == 5
     "buzz"
-  else
+  elsif n == 15
     "fizzbuzz"
+  else
+    n
   end
 end
