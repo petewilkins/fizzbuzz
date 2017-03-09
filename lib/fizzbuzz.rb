@@ -1,4 +1,5 @@
 def fizzbuzz(n)
+  # reordered so 15 comes first
   if n % 15 == 0
     "fizzbuzz"
   elsif n % 5 == 0
