@@ -20,4 +20,16 @@ describe "fizzbuzz" do
   it "returns fizz for 6" do
     expect(fizzbuzz(6)).to eq("fizz")
   end
+
+  it "returns buzz for 10" do
+    expect(fizzbuzz(10)).to eq("buzz")
+  end
+
+  it "returns fizzbuzz for 30" do
+    expect(fizzbuzz(30)).to eq("fizzbuzz")
+  end
+
+  it "returns itself for 2" do
+    expect(fizzbuzz(2)).to eq(2)
+  end
 end
